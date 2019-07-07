@@ -7,6 +7,6 @@ This script creates and deploys the infrastructure and application, which (as of
 Included is the diagram that helps visualizes that script.
 Since it's an image file, to view the .png file you can just simply click on the file name on this page: [https://github.com/call900913/dend-rchristy-project2](https://github.com/call900913/dend-rchristy-project2).
 
-The other file, dend-rchristy-project2.yml, is the CloudFormation script used to create the stack in question.
+The other file, `dend-rchristy-project2.yml`, is the CloudFormation script used to create the stack in question.
 
 Cheers!
