@@ -270,6 +270,6 @@ Resources:
 Outputs:
     LBDNS:
         Description: Load Balancer's DNS name
-        Value: https://
+        Value: http://proje-WebAp-1A3SYXEU71DHF-1046738278.us-west-2.elb.amazonaws.com
         Export:
             Name: LBDNS
