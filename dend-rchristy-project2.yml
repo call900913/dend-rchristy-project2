@@ -200,9 +200,9 @@ Resources:
             SecurityGroups:
               - Ref: WebServerSecurityGroup
             BlockDeviceMappings:
-              - DeviceName: "/dev/sdk"
+              - DeviceName: /dev/sdk
                 Ebs:
-                    VolumeSize: '10'
+                    VolumeSize: 10
             UserData:
                 Fn::Base64: !Sub |
                     #!/bin/bash
@@ -262,7 +262,7 @@ Resources:
             HealthCheckProtocol: HTTP
             HealthCheckTimeoutSeconds: 10
             HealthyThresholdCount: 2
-            Port: 8080
+            Port: 80
             Protocol: HTTP
             UnhealthyThresholdCount: 5
             VpcId: !Ref VPC
