@@ -9,4 +9,4 @@ Since it's an image file, to view the .png file you can just simply click on the
 
 The other file in this directory, `dend-rchristy-project2.yml`, is the CloudFormation script used to create the stack in question.
 
-Cheers!
+*Update: Stack was deleted around 12:15PM EDT on Sep 12, 2019.
